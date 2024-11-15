@@ -1,0 +1,157 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+.ancho{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background-color: #f3f3f3;
+}
+
+header span{
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+section{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin: auto;
+}
+
+article{
+    width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0px 15px;
+    background-color: #fff;
+    position: relative;
+}
+
+figure{
+    width: 350px;
+    height: 200px;
+    position: relative;
+}
+
+
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF5900;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: bold;
+}
+
+.recuadro{
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: #FF5900;
+    color: #fff;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+figure img{
+    width: 350px;
+    height: 200px;
+}
+
+article p{
+    padding: 20px;
+    margin-bottom: 24%;
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+article .vinculo{
+    text-decoration: none;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FF5900;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    margin: 15px;
+}
+
+.vinculo span{
+    font-size: 12px;
+}
+
+.enlace{
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px blue solid; */
+    height: 50px;
+    padding-top: 2%;
+}
+
+.enlace a{
+    color: #FF5900;
+    font-weight: bold;
+    font-family: "Zilla Slab", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.enlace i{
+    color: #FF5900;
+    font-weight: bold;
+}
+
+footer{
+    height: 100px;
+    background-color: #FF5900;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px){
+    section{
+        width: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: auto;
+    }
+
+    figure{
+        position: static;
+    }
+    
+    .elementos{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 350px;
+    }
+
+    section article:nth-child(2){
+        margin: 50px 0px;
+    }
+
+    .enlace{
+        display: none;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin-bottom: 10px;
+        z-index: 10;
+        position: sticky;
+        top: 0;
+        background-color: #f3f3f3;
+    }
+}
